@@ -4,28 +4,28 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
   return (
-    <header className="bg-red-600">
+    <header className="bg-green-600">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+            className="inflex-flex items-center py-6 px-3 mr-4 text-green-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
           >
             EasyExporter
           </NavLink>
           <NavLink
             to="/post"
-            className="inline-flex item-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            className="inline-flex item-center py-3 px-3 my-6 rounded text-green-200 hover:text-red-800"
+            activeClassName="text-green-100 bg-green-700"
           >
             Blog
           </NavLink>
           <NavLink
             to="/About"
-            className="inline-flex item-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            className="inline-flex item-center py-3 px-3 my-6 rounded text-green-200 hover:text-red-800"
+            activeClassName="text-green-100 bg-green-700"
           >
             About Us!
           </NavLink>
