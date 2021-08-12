@@ -1,5 +1,8 @@
-@import url("https://unpkg.com/tailwindcss/typography@0.2.x/dist/typography.min.css");
-@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+/* @import url("https://unpkg.com/tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 .cursive {
@@ -15,4 +18,23 @@
 
 .home-name {
   font-size: 150px;
+}
+/* 
+body {
+  width: fit-content;
+} */
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: fit-content;
+  }
+}
+
+p {
+  margin-bottom: revert;
+}
+
+ol, ul {
+  list-style: disc;
+  padding: revert;
 }

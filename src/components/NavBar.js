@@ -29,6 +29,7 @@ export default function NavBar() {
           >
             About Us!
           </NavLink>
+
         </nav>
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
